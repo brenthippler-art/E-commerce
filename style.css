@@ -238,7 +238,61 @@ Features
 */
 
 #features {
+    padding-top: 16vh;
     background-color: rgba(115, 66, 214, 0.1);
+}
+
+.books {
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.book {
+    width: 25%;
+    padding: 24px;
+}
+
+ .book__img {
+    max-height: 300px; 
+    transition: all 300ms ease;
+    cursor: not-allowed;
+ }
+
+ .book__img--wrapper {
+    margin-bottom: 8px;
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+ }
+
+.book:hover .book__img {
+    transform: scale(1.03);
+}
+
+.fa-solid, fa-star{
+    font-size: 24px;
+}
+
+.book__title {
+    margin-top: 12px;
+    font-size: 20px;
+}
+
+.book__title:hover {
+    text-decoration: underline;
+    cursor: not-allowed;
+}
+
+.books__ratings {
+    margin-top: 16px;
+    color: #fabf2a;
+}
+
+.book__price--normal {
+    text-decoration: line-through;
+    padding-right: 6px;
+    color: #bfbfbf
 }
 
 /*
@@ -251,4 +305,3 @@ Recent
     background-color: rgba(115, 66, 214, 0.1);
 }
 
-/*video at 39.03*/
