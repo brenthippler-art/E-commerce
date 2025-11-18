@@ -459,7 +459,7 @@ footer {
 
 .footer__logo--img {
     width: 160px;
-    filter: grayscale(1) invert (1);
+    filter: grayscale(1) invert(100%);
 }
 
 .footer__list,
@@ -505,6 +505,22 @@ footer {
         width: 50%;
     }
 
+    #features {
+        padding-top: 4vh;
+}
+
+    .books {
+        display: flex;
+        flex: wrap;
+}
+
+    .book {
+        width: 50%;
+    }
+
+    .fa-solid, fa-star{
+        font-size: 12px;
+    }
 
 
 }
@@ -519,13 +535,33 @@ footer {
     }
 
     .highlight {
-        width: 100$
+        width: 100%;
     }
 
     .highlight:not(:last-child) {
         margin-bottom: 24px;
     }
 
+    #features {
+    padding-top: 4vh;
+}
+
+.books {
+    display: flex;
+    flex: wrap;
+}
+
+.book {
+    width: 50%;
+}
+
+.fa-solid, fa-star{
+    font-size: 10px;
+}
+
+.book__title {
+    font-size: 16px;
+}
 
 }
 
